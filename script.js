@@ -5,30 +5,35 @@ const btn = document.querySelector("#btn");
 const date = new Date();
 const render = (Manager, companyName) => {
   mainP.innerHTML = `<span>Kjære ${Manager},</span><br><br>
-    <span>
 
-    Jeg skriver for å uttrykke min interesse for stillingen som produksjonsmedarbeider hos ${companyName}. 
-    Med min erfaring innen produksjon og min styrke til å jobbe i et team, tror jeg ville være en verdifull tillegg til teamet deres. <br><br></span>
+  Jeg skriver for å søke på stillingen som omsorgsarbeider ved ${companyName}. <br>
+  Selv om jeg ikke har direkte erfaring som omsorgsarbeider,
+   har jeg tidligere jobbet som aktivitør ved et sykehjem.<br>
+    Gjennom denne erfaringen har jeg fått en dypere forståelse og 
+   respekt for eldre mennesker og deres behov for omsorg.<br><br>
+  
+  Som aktivitør, var jeg ansvarlig for å planlegge og gjennomføre aktiviteter for pasientene,
+   inkludert kreativ kunst, musikk og bevegelsesøvelser. <br>
+   Jeg har lært å jobbe med eldre pasienter og har utviklet 
+   ferdigheter i å lytte og forstå deres behov og ønsker. 
+  Jeg har også lært å jobbe i et tverrfaglig team for å gi best mulig omsorg og støtte til pasientene.  <br><br>
 
-    Jeg er en norsk statsborger som for tiden bor i Israel, men jeg ønsker nå å flytte
-     tilbake til Norge og bosette meg på lang sikt. Jeg er veldig interessert i å utforske mulighetene som finnes hos dere.
- <br> <br>
+  Jeg er veldig motivert for å begynne å jobbe som omsorgsarbeider ved ${companyName}.
+   Jeg har en naturlig empatisk natur og ønsker å gi omsorg og støtte til pasientene. Jeg er villig til å lære og utvikle meg for å bli en dyktig omsorgsarbeider.
+   Jeg tror mine erfaringer som aktivitør og min personlige holdning vil være til nytte i denne stillingen. <br><br>
+ 
+  
 
 
- Jeg har erfaring fra ulike produksjonsarbeid, inkludert arbeid med små komponenter og kvalitetskontroll.
-  Jeg er opptatt av å levere arbeid av høy kvalitet og å jobbe
-  effektivt for å oppnå best mulig resultater. Jeg har også erfaring fra å arbeide i team og har utviklet gode kommunikasjons- 
-  og samarbeidsevner.<br> <br>
+
+
   Jeg vil gjerne informere om at mitt morsmål ikke er norsk, og at jeg derfor ikke snakker språket helt flytende,
    men Jeg er trygg på at norsken min er tilstrekkelig for å utføre jobben på en god måte. <br> <br>
 
-  Jeg ser på muligheten til å flytte tilbake til Norge som en spennende mulighet for både personlig og faglig utvikling, 
-  og jeg er overbevist om at jeg kan bidra positivt til deres team. Jeg ser frem til å høre fra dere og diskutere mulighetene videre. <br> <br>
+  Jeg ser frem til å høre fra deg og diskutere min søknad og mine kvalifikasjoner videre. Takk for din tid og vurdering. <br><br>
 
 
-
-  Med vennlig hilsen, <br>
-
+  Med vennlig hilsen,<br>
 Lena Cohen
 <br>
 ${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}
